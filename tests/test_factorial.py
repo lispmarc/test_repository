@@ -11,11 +11,11 @@ def test_2():
 ## UnsuccesFull tests (will be detected on github
 
 def test_3():
-    assert fac.factorial(3)==7,"(1) Causes a failure (although result is correct) must be corrected"
+    assert fac.factorial(3)==6,"(1) Causes a failure (although result is correct) must be corrected"
     
 def test_4():
-    assert fac.factorial(4)==25,"(2) Causes a failure (although result is correct) must be corrected"
+    assert fac.factorial(4)==24,"(2) Causes a failure (although result is correct) must be corrected"
     
 def test_5():
-    assert fac.factorial(2)==3,"(2) Causes a failure (although result is correct) must be corrected"
+    assert fac.factorial(2)==2,"(2) Causes a failure (although result is correct) must be corrected"
  
